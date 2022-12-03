@@ -1,80 +1,118 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
-    
+<html lang="en">
 
-    <title>Home Page | Laurens</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+
+  <title>Home Page | Laurens</title>
 </head>
-<body class="d-flex flex-column h-100">
-    <nav class="navbar navbar-expand-lg" style="background-color: #FAF9F6;">
-        <div class="container-md">
-          <a class="navbar-brand" href="index.html">Laurens</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="skills.html">Skills</a>
-              </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-md">
+      <a class="navbar-brand" href="index.html">Laurens</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skills.html">Skills</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="px-4 py-5 my-5 text-center">
+      <img class="d-block mx-auto mb-4" src="img/ZelfPortret.png" alt="SelfieAvatar" width="350">
+      <h1 class="display-5 fw-bold">Hey, ik ben Laurens</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead">Ik studeer aan de Thomas More campus in Geel om een <br>
+          volwaardige programmeur te worden. De talen die we leren <br>
+          zijn C#, HTML5, CSS3, JS,... en met Figma ben ik in mijn <br>
+          vrije tijd wat aan het experimenteren</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4 fw-bold">CONTACT ME</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="text-center">
+        <h1>Projects</h1>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <iframe class="embed-responsive-item" style="height: 350px;" src="https://laurens-thys.be/Project_1/"></iframe>
+            <div class="card-body">
+              <h5 class="card-title"><i class="bi bi-archive"></i><a href="https://laurens-thys.be/Project_1/"> First Portfolio</h5></a>
+              <p class="card-text">Mijn eerste project dat ik gemaakt heb voor het vak Statische Websites, een portfolio met alleen html en css.</p>
+            </div>
           </div>
         </div>
-      </nav>
-
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="img/image2.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"  width="430">
+        <div class="col-md">
+          <div class="card">
+            <a href="https://laurens-thys.be/Project_1/"><img src="img/Dummy.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title"><i class="bi bi-archive"></i> 2D Platform Game</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
           </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Hey, ik ben Laurens</h1>
-            <p class="lead">Ik studeer aan de Thomas More campus in Geel om een <br> 
-              volwaardige programmeur te worden. De talen die we leren <br> 
-              zijn C#, HTML5, CSS3, JS,... en met Figma ben ik in mijn <br> 
-              vrije tijd wat aan het experimenteren.</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-outline-secondary btn-lg px-4 fw-bold">CONTACT ME</button>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <a href="http://"><img src="img/Dummy.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title"><i class="bi bi-archive"></i> Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </main>
 
-      <div class="container-fluid">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
-            
-            <span class="mb-3 mb-md-0">&copy; Thys Laurens</span>
-          </div>
-      
-          <ul class="nav col-md-2 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a href="#"><i class="bi bi-linkedin fa-lg"></i></a></li>
-            <li class="ms-3"><a href="#"><i class="bi bi-instagram fa-lg"></i></a></li>
-            <li class="ms-3"><a href="#"><i class="bi bi-facebook fa-lg"></i></a></li>
-          </ul>
-        </footer>
+  <div class="container-fluid">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0">&copy; Thys Laurens</span>
       </div>
+      <ul class="nav col-md-2 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a href="#"><i class="bi bi-linkedin fa-lg"></i></a></li>
+        <li class="ms-3"><a href="#"><i class="bi bi-instagram fa-lg"></i></a></li>
+        <li class="ms-3"><a href="#"><i class="bi bi-facebook fa-lg"></i></a></li>
+      </ul>
+    </footer>
+  </div>
 
-      <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

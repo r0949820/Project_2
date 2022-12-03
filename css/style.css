@@ -5,9 +5,7 @@
 html,body{
     height: 100%
 }
-body{
-    background-color: #FAF9F6;
-}
+
 .navbar-brand {
     font-weight: bold;
     font-size: x-large;
@@ -16,6 +14,7 @@ body{
     font-weight: bold;
     font-size: x-large;
     border-bottom: 4px solid black;
+    background-color: white;
 }
 footer {
     margin: 10px;
@@ -26,3 +25,81 @@ footer {
 .btn {
     color: black;
 }
+.card {
+    min-height: 500px;
+}
+a {
+    color: black;
+  text-decoration: none; /* no underline */
+}
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume {
+    margin-top: 20px;
+}
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+  }
+  .progress {
+    width: 400px;
+  }
+
+  .carousel .carousel-item {
+    margin-top: 30px;
+  }
+  
