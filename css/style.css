@@ -94,19 +94,50 @@ a {
     border: 2px solid #1f5297;
   }
 /*------------------#Carousel------------------*/
-  .carousel {
-    margin: auto;
-    margin-top: 30px;
-    width:900px;
-  }
+  
+  @media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
 
-  form {
-    width: 70%;
-    margin: auto;
-  }
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+  
   /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+form {
+  width: 70%;
+  margin: auto;
+}
+
 .contact {
     padding-bottom: 130px;
   }
@@ -279,3 +310,6 @@ a {
   .contact .php-email-form button[type=submit]:hover {
     background: #37b3ed;
   }
+
+
+  
