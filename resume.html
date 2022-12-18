@@ -1,224 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="img/favicon.ico">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">
-    
 
-    <title>Resume Page | Laurens</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="vendor/OwlCarousel2/assets/owl.carousel.css" rel="stylesheet" type="text/css">
+  <link href="vendor/OwlCarousel2/assets/owl.theme.default.css" rel="stylesheet" type="text/css">
+
+
+  <title>Resume Page | Laurens</title>
 </head>
+
 <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-md">
-          <a class="navbar-brand" href="index.html">Laurens</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Ninja_Frog/game.html">Game</a>
-              </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-md">
+      <a class="navbar-brand" href="index.html">Laurens</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Ninja_Frog/game.html">Game</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container" role="main">
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Curriculum Vitae</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Info</h3>
+            <div class="resume-item pb-0">
+              <h4>Laurens Thys</h4>
+              <p><em>Toen ik ongeveer 15 jaar was kwam ik voor het eerst in aanraking met programmeren.
+                  Naarmate de jaren verstreken ging ik mij steeds verder verdiepen in het programmeren met talen als C#,
+                  Java, Javascript, HTML5 en CSS3.
+                  Inmiddels ben ik de avondopleiding Graduaat programmeur gestart zo wil ik mijn passie voor
+                  programmeren graag in de praktijk voortzetten.</em></p>
+              <ul>
+                <li>Droomstraat 123, Geel, BE</li>
+                <li>laurens.thys95@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Opleiding</h3>
+            <div class="resume-item">
+              <h4>Graduaat Programmeren</h4>
+              <h5>2022 - Heden</h5>
+              <p><em>Thomas More, Geel, BE</em></p>
+              <p>Avond/weekend Opleiding</p>
+            </div>
+            <div class="resume-item">
+              <h4>Elektrotechnisch installateur</h4>
+              <h5>2019 - 2021</h5>
+              <p><em>Thomas More, Geel, BE</em></p>
+              <p>Avond Opleiding</p>
+            </div>
+            <div class="resume-item">
+              <h4>industrieel onderhoudstechnieker</h4>
+              <h5>2016 - 2017</h5>
+              <p><em>Sint-Jozef Instituut, Geel, BE</em></p>
+              <p>Middelbare school</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Ervaring</h3>
+            <div class="resume-item">
+              <h4>Assembly worker axle factory</h4>
+              <h5>2017 - Heden</h5>
+              <p><em>Daf trucks NV, Westerlo, BE</em></p>
+              <ul>
+                <li>Assen en fusées samenstellen tot een compleet product.</li>
+                <li>Vervoeren van naven met een zitstapelaar.</li>
+                <li>Voorbereiden van de verschillende soorten onderdelen.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Monteur transportsystemen</h4>
+              <h5>2020 - 2020</h5>
+              <p><em>Easy-Systems, Geel, BE</em></p>
+              <ul>
+                <li>Monteren en installeren van verschillende soorten transportsystemen.</li>
+                <li>projecten voorbereiden in het atelier.</li>
+                <li>Onderhoud van verschillende soorten transportsystemen.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Talen</h4>
+              <ul>
+                <li>Nederlands</li>
+                <li>English</li>
+                <li>Francais</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </nav>
 
-      <main class="container">
-        <section id="resume" class="resume">
-          <div class="container">
-    
-            <div class="section-title">
-              <h2>Curriculum Vitae</h2>
-            </div>
-    
-            <div class="row">
-              <div class="col-lg-6">
-                <h3 class="resume-title">Info</h3>
-                <div class="resume-item pb-0">
-                  <h4>Laurens Thys</h4>
-                  <p><em>Toen ik ongeveer 15 jaar was kwam ik voor het eerst in aanraking met programmeren. 
-                    Naarmate de jaren verstreken ging ik mij steeds verder verdiepen in het programmeren met talen als C#, Java, Javascript, HTML5 en CSS3. 
-                    Inmiddels ben ik de avondopleiding Graduaat programmeur gestart zo wil ik mijn passie voor programmeren graag in de praktijk voortzetten.</em></p>
-                  <ul>
-                    <li>Droomstraat 123, Geel, BE</li>
-                    <li>laurens.thys95@gmail.com</li>
-                  </ul>
-                </div>
-    
-                <h3 class="resume-title">Opleiding</h3>
-                <div class="resume-item">
-                  <h4>Graduaat Programmeren</h4>
-                  <h5>2022 - Heden</h5>
-                  <p><em>Thomas More, Geel, BE</em></p>
-                  <p>Avond/weekend Opleiding</p>
-                </div>
-                <div class="resume-item">
-                  <h4>Elektrotechnisch installateur</h4>
-                  <h5>2019 - 2021</h5>
-                  <p><em>Thomas More, Geel, BE</em></p>
-                  <p>Avond Opleiding</p>
-                </div>
-                <div class="resume-item">
-                  <h4>industrieel onderhoudstechnieker</h4>
-                  <h5>2016 - 2017</h5>
-                  <p><em>Sint-Jozef Instituut, Geel, BE</em></p>
-                  <p>Middelbare school</p>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <h3 class="resume-title">Ervaring</h3>
-                <div class="resume-item">
-                  <h4>Assembly worker axle factory</h4>
-                  <h5>2017 - Heden</h5>
-                  <p><em>Daf trucks NV, Westerlo, BE</em></p>
-                  <ul>
-                    <li>Assen en fusées samenstellen tot een compleet product.</li>
-                    <li>Vervoeren van naven met een zitstapelaar.</li>
-                    <li>Voorbereiden van de verschillende soorten onderdelen.</li>
-                  </ul>
-                </div>
-                <div class="resume-item">
-                  <h4>Monteur transportsystemen</h4>
-                  <h5>2020 - 2020</h5>
-                  <p><em>Easy-Systems, Geel, BE</em></p>
-                  <ul>
-                    <li>Monteren en installeren van verschillende soorten transportsystemen.</li>
-                    <li>projecten voorbereiden in het atelier.</li>
-                    <li>Onderhoud van verschillende soorten transportsystemen.</li>
-                  </ul>
-                </div>
-                <div class="resume-item">
-                  <h4>Talen</h4>
-                  <ul>
-                    <li>Nederlands</li>
-                    <li>English</li>
-                    <li>Francais</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-    
-          </div>
-        </section>
+      </div>
+    </section>
 
-        <div class="container text-center my-3">
-          <h2 class="font-weight-light">Skills</h2>
-          <div class="row mx-auto my-auto justify-content-center">
-              <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner" role="listbox">
-                      <div class="carousel-item active">
-                          <div class="col-md-3">
-                              <div class="card">
-                                  <div class="card-img">
-                                      <img src="img/image4.png" class="img-fluid">
-                                      <p class="fw-bold">HTML5</p>
-                                  </div>
-                              </div>
+    
+
+      <div class="container">
+          <!-- Example row of columns -->
+          <div class="row">
+              <div class="col-md-12">
+
+                  <div class="card">
+                      <div class="card-body">
+                          <h4 class="card-title">Skills</h4>
+                          <div class="owl-carousel owl-theme">
+                              <div class="item"> <img src="img/image4.png" alt="html" /></div>
+                              <div class="item"> <img src="img/image5.png" alt="css" /></div>
+                              <div class="item"> <img src="img/image6.png" alt="C#" /></div>
+                              <div class="item"> <img src="img/image7.png" alt="Javascript" /></div>
+                              <div class="item"> <img src="img/image8.png" alt="Figma" /></div>
                           </div>
+                          <!-- /carousel -->
                       </div>
-                      <div class="carousel-item">
-                          <div class="col-md-3">
-                              <div class="card">
-                                  <div class="card-img">
-                                      <img src="img/image5.png" class="img-fluid">
-                                      <p class="fw-bold">CSS3</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="carousel-item">
-                          <div class="col-md-3">
-                              <div class="card">
-                                  <div class="card-img">
-                                      <img src="img/image6.png" class="img-fluid">
-                                      <p class="fw-bold">C#</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="carousel-item">
-                          <div class="col-md-3">
-                              <div class="card">
-                                  <div class="card-img">
-                                      <img src="img/image7.png" class="img-fluid">
-                                      <p class="fw-bold">JAVASCRIPT</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="carousel-item">
-                          <div class="col-md-3">
-                              <div class="card">
-                                  <div class="card-img">
-                                      <img src="img/image8.png" class="img-fluid">
-                                      <p class="fw-bold">FIGMA</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
+                      <!-- /cardbody -->
                   </div>
-                  <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  </a>
-                  <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  </a>
+                  <!-- /card -->
               </div>
+              <!-- /col12 -->
           </div>
+          <!-- /row -->
       </div>
-      </main>
+      <!-- /cont -->
+  </main>
+  
 
-      
-      
-      <div class="container-fluid mt-auto">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
-            <span class="mb-3 mb-md-0">&copy; Thys Laurens</span>
-          </div>
-          <ul class="nav col-md-2 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a href="https://www.linkedin.com/in/laurens-thys-412976251/"><i class="bi bi-linkedin fa-lg"></i></a></li>
-            <li class="ms-3"><a href="https://www.instagram.com/laurens.thys/"><i class="bi bi-instagram fa-lg"></i></a></li>
-            <li class="ms-3"><a href="https://www.facebook.com/laurens.thys.7/"><i class="bi bi-facebook fa-lg"></i></a></li>
-          </ul>
-        </footer>
+
+
+  <div class="container-fluid mt-auto">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0">&copy; Thys Laurens</span>
       </div>
+      <ul class="nav col-md-2 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a href="https://www.linkedin.com/in/laurens-thys-412976251/"><i class="bi bi-linkedin fa-lg"></i></a></li>
+        <li class="ms-3"><a href="https://www.instagram.com/laurens.thys/"><i class="bi bi-instagram fa-lg"></i></a>
+        </li>
+        <li class="ms-3"><a href="https://www.facebook.com/laurens.thys.7/"><i class="bi bi-facebook fa-lg"></i></a>
+        </li>
+      </ul>
+    </footer>
+  </div>
 
-      <script>
-        let items = document.querySelectorAll('.carousel .carousel-item')
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous ">
+  </script>
 
-        items.forEach((el) => {
-        const minPerSlide = 4
-        let next = el.nextElementSibling
-        for (var i=1; i<minPerSlide; i++) {
-        if (!next) {
-            // wrap carousel by using first child
-        	next = items[0]
-      	}
-        let cloneChild = next.cloneNode(true)
-        el.appendChild(cloneChild.children[0])
-        next = next.nextElementSibling
-        }
-        })
-      </script>
-      <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/OwlCarousel2/owl.carousel.min.js " type="text/javascript "></script>
+  <script type="text/javascript ">
+      $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+              0: {
+                  items: 1
+              },
+              600: {
+                  items: 2
+              },
+              1000: {
+                  items: 3
+              }
+          }
+      })
+  </script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
